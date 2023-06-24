@@ -1,0 +1,168 @@
+.mainContainer {
+  display: flex;
+  margin-top: 60px;
+}
+
+.container {
+  max-width: 670px;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.form input {
+  margin-right:10px ;
+  width: 305px;
+  height: 52px;
+  border-radius: 10px;
+  padding-left: 16px;
+  border: 2px solid #bbc4ce;
+  outline: none;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.02em;
+  color: #75818c;
+}
+
+.btn_default {
+  width: 272px;
+  height: 52px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #b600ee;
+  border: none;
+  transition: all 0.3s;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #ffff;
+}
+
+button.btn_default:hover {
+  opacity: 0.7;
+} 
+
+/* CEP SELECTED */
+
+.cep-selected {
+  margin-top: 3rem;
+}
+
+.cep-selected li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.cep-selected li svg {
+  width: 23px;
+  height: 29px;
+  margin-right: 10px;
+}
+
+.cep-selected li p {
+  color: #20272c;
+}
+
+.cep-selected span {
+  color: #b7b7b7;
+}
+
+.cep-empty, .cep-empty-req {
+  color: #b7b7b7;
+  font-weight: 700;
+}
+
+.button-gerar-enderecos {
+  display: flex;
+  justify-content: end;
+  margin-top: 3rem;
+}
+
+/* cep envio */
+
+.cep-req {
+  margin-top: 1.5rem;
+}
+
+.line-row{
+  display: block;
+  height: 2px;
+  background-color: #b7b7b7;
+  opacity: 0.3;
+}
+
+.cep-req ul {
+  margin-top: 1.5rem;
+  border-radius: 8px;
+}
+
+.cep-req li {
+  box-shadow: 0px 4px 20px rgba(32, 39, 44, 0.1);
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 120px;
+  padding: 0px 15px;
+}
+
+.cep-req li div {
+  display: flex;
+  align-items: center;
+}
+
+.cep-req .place {
+  height: 22px;
+}
+
+.info-cidade {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  gap: 3px;
+}
+
+.info-cidade p {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #424e59;
+}
+
+.info-cidade span {
+  font-size: 0.927rem;
+  letter-spacing: 0.011em;
+  color: #20272c;
+  width: 100%;
+}
+
+.cep-lixo {
+  margin-left: 35px;
+  height: 80%;
+}
+
+.line {
+  height: 100%;
+  border-right: 3px solid #e0e6ea;
+  opacity: 0.6;
+  margin: 0px 10px;
+}
+
+.cep {
+  color: #b600ee;
+}
+
+
+button.btn_excluir {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
